@@ -1,0 +1,386 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+.container
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    width: 50vh;
+    border: none;
+    background-color: rgb(96, 231, 69);
+    box-shadow: 0 0 20px grey;
+    border-radius: 20px;
+}
+.container:hover
+{
+    background-color: mediumslateblue;
+    box-shadow: 0 0 50px mediumslateblue;
+    /* border: 2px solid darkcyan; */
+    border-radius: 20px;
+}
+.circle
+{
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background-color: chartreuse;
+    border: none;
+    border-radius: 50%;
+    animation-name: abstract;
+    animation-duration: 6s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+.cont1
+{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    height: 40vh;
+    width: 40vh;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(65, 245, 215);
+    transform: translate(-50%,-50%);
+    box-shadow: 0 0 50px rgb(65, 245, 215);
+    /* display: none; */
+}
+.cont1:hover{
+    background-color: rgb(241, 50, 124);
+    box-shadow: 0 0 50px rgb(241, 50, 124);
+}
+#btn
+{
+    position: absolute;
+    top: 74%;
+    height: 50px;
+    width: 50px;
+    border: none;
+    border-radius: 50%;
+    background-color: darkgoldenrod;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: solid;
+    font-weight: 500;
+    box-shadow: 0 0 40px orange;
+}
+#btn1
+{
+    position: absolute;
+    top: 74%;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    left: 19%;
+    height: 50px;
+    width: 50px;
+    border: none;
+    border-radius: 50%;
+    background-color: darkgoldenrod;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: solid;
+    font-weight: 500;
+    text-decoration: underline solid white;
+    box-shadow: 0 0 40px orange;
+}
+#btn2
+{
+    position: absolute;
+    top: 74%;
+    left: 65%;
+    height: 50px;
+    width: 50px;
+    border: none;
+    border-radius: 50%;
+    background-color: darkgoldenrod;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: solid;
+    font-weight: 500;
+    text-decoration: underline solid white;
+    box-shadow: 0 0 40px orange;
+}
+#btn:hover
+{
+    background-color: mediumorchid;
+    color: black;
+    box-shadow: 0 0 40px mediumorchid;
+}
+#btn1:hover
+{
+    background-color: mediumorchid;
+    color: black;
+    box-shadow: 0 0 40px mediumorchid;
+}
+#btn2:hover
+{
+    background-color: mediumorchid;
+    color: black;
+    box-shadow: 0 0 40px mediumorchid;
+}
+#alpha
+{
+    position: absolute;
+    top: 60%;
+    height: 30px;
+    width: 150px;
+    border: none;
+    border-radius: 5px;
+    background-color: wheat;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: solid;
+    font-weight: 500;
+    text-align: center;
+}
+#about
+{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    height: 30px;
+    width: 220px;
+    border: none;
+    border-radius: 4px;
+    transform: translate(-50%,-50%);
+    background-color: rgb(174, 102, 241);
+    box-shadow: 0 0 15px rgb(0, 255, 136);
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(11, 28, 184);
+    text-align: center;
+    /* display: none; */
+}
+#about:hover
+{
+    background-color: rgb(42, 132, 235);
+    box-shadow: 0 0 15px rgb(42, 132, 235);
+}
+#img1
+{
+    position: absolute;
+    top: 5px;
+    left: 50%;
+    transform: translate(-50%);
+    height: 32vh;
+    width: 30vh;
+    border: none;
+    border-radius: 20px;
+    background-size:contain;
+    background-repeat: no-repeat;
+    
+}
+@keyframes abstract {
+    /* 0%{transform: scale(0.1);} */
+    10%{transform: scale(1.1);background-color: darkblue;box-shadow: 0 0 50px darkblue;position: absolute;top: 50%;transform: translate(-50%,-50%);}
+    20%{transform: scale(0.1);background-color:crimson;box-shadow: 0 0 50px crimson;position: absolute;top: 50%;transform: translate(-50%,-50%);}
+    30%{transform: scale(1.4);background-color:turquoise;box-shadow: 0 0 50px turquoise;position: absolute;top: 50%;transform: translate(-50%,-50%);}
+    40%{transform: scale(0.3);background-color:darkgoldenrod;box-shadow: 0 0 50px darkgoldenrod;position: absolute;top: 50%;transform: translate(-50%,-50%);}
+    50%{transform: scale(1.7);background-color:hotpink;box-shadow: 0 0 25px hotpink;position: absolute;top: 50%;transform: translate(-50%,-50%);}
+    60%{transform: scale(0.6);background-color: rgb(185, 118, 248);box-shadow: 0 0 50px rgb(185, 118, 248);position: absolute;top: 50%;transform: translate(-50%,-50%);}
+    70%{transform: scale(1.9);background-color: rgb(40, 240, 90);box-shadow: 0 0 50px rgb(40, 240, 90);position: absolute;top: 50%;transform: translate(-50%,-50%);}
+    80%{transform: scale(1.1);background-color: midnightblue;box-shadow: 0  0 50px midnightblue;position: absolute;top: 50%;transform: translate(-50%,-50%);}
+    90%{transform: scale(1.6);background-color: rgb(228, 52, 125);box-shadow:0 0 50px rgb(228, 52, 125);position: absolute;top: 50%;transform: translate(-50%,-50%);}
+    100%{transform: scale(0.3);background-color: rgb(243, 111, 23);box-shadow:0 0 50px rgb(243, 111, 23);position: absolute;top: 50%;transform: translate(-50%,-50%);}
+}
+.circle2
+{
+    position: absolute;
+    top:10%;
+    left: 80%;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: black;
+    animation-name: magic;
+    animation-duration: 10s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+.glow
+{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: aqua;
+    box-shadow: 0 0 100px aqua;
+    /* animation-name: magic;
+    animation-duration: 10s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite; */
+}
+@keyframes magic {
+    0%{position: absolute;top:10%;left: 80%;transform: translate(-50%,-50%);}
+    7%{transform: scale(0);}
+    20%{position: absolute;top:70%;left: 10%;transform: scale(0.8);transform: translate(-50%,-50%);}
+    28%{transform: scale(0);}
+    40%{position: absolute;top:85%;left: 50%;transform: scale(0.8);transform: translate(-50%,-50%);}
+    49%{transform: scale(0);}
+    60%{position: absolute;top:60%;left: 80%;transform: scale(0.8);transform: translate(-50%,-50%);}
+    69%{transform: scale(0);}
+    75%{position: absolute;top:50%;left: 50%;transform: scale(0.8);transform: translate(-50%,-50%);}
+    84%{transform: scale(0);}
+    93%{position: absolute;top:10%;left: 80%;transform: scale(0.8);transform: translate(-50%,-50%);}
+}
+.a #a
+{
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    font-size: 100px;
+    color: rgb(0, 217, 255);
+    background-color: transparent;
+    height: 120px;
+    width: 120px;
+    text-align: center;
+    border-radius: 50%;
+    backdrop-filter: blur(20px);
+    rotate: 330deg;
+    box-shadow: 0 0 40px rgb(0, 217, 255) ;
+    animation-name: shad;
+    animation-duration: 10s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+.a #a:hover{
+    background-color: rgb(0, 217, 255);
+    color: black;
+}
+.b #b
+{
+    position: absolute;
+    top: 61%;
+    left: 69%;
+    font-size: 100px;
+    color: rgb(238, 46, 206);
+    background-color: transparent;
+    height: 120px;
+    width: 120px;
+    text-align: center;
+    border-radius: 50%;
+    backdrop-filter: blur(20px);
+    rotate: 330deg;
+    box-shadow: 0 0 40px rgb(238, 46, 206) ;
+    animation-name: shad;
+    animation-duration: 10s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+.b #b:hover{
+    background-color: rgb(238, 46, 206);
+    color: black;
+}
+.c #c
+{
+    position: absolute;
+    top: 36%;
+    left: 80%;
+    font-size: 100px;
+    color: rgb(141, 80, 240);
+    background-color: transparent;
+    height: 120px;
+    width: 120px;
+    text-align: center;
+    border-radius: 50%;
+    backdrop-filter: blur(20px);
+    rotate: 330deg;
+    box-shadow: 0 0 40px rgb(141, 80, 240);
+    animation-name: shad;
+    animation-duration: 10s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+.c #c:hover
+{
+    background-color: rgb(141, 80, 240);
+    color: black;
+}
+/* #audio
+{
+    height: 40px;
+    position: absolute;
+    top: 85%;
+    /* display: none; */
+/* .light
+{
+    background-color: bisque;
+}
+.dark
+{
+    background-color: darkslategrey;
+} */
+/* #change
+{
+    position: absolute;
+    top: 3%;
+    left: 70%;
+    height: 60px;
+    width: 60px;
+    border: none;
+    border-radius: 50%;
+    color: aqua;
+    font-family: Algerian;
+    background-color: whitesmoke;
+    font-weight: 700;
+} */
+#alpha::placeholder
+{
+    text-align: center;
+    color: rgb(0, 247, 255);
+    font-family: cursive;
+}
+@keyframes shad{
+    10%{box-shadow: 0 0 40px gold;}
+    20%{box-shadow: 0 0 40px violet;}
+    30%{box-shadow: 0 0 40px rgb(255, 123, 0);}
+    40%{box-shadow: 0 0 40px rgb(24, 240, 107);}
+    50%{box-shadow: 0 0 40px rgb(48, 167, 247);}
+    60%{box-shadow: 0 0 40px rgb(108, 59, 241);}
+    70%{box-shadow: 0 0 40px rgb(243, 67, 228);}
+    80%{box-shadow: 0 0 40px rgb(137, 233, 58);}
+    90%{box-shadow: 0 0 40px rgb(241, 30, 178);}
+    100%{box-shadow: 0 0 40px rgb(243, 46, 20);}
+}
+.logo
+{
+    position: absolute;
+    top: 15px;
+    left: 10%;
+    font-size: 40px;
+    font-family: Castellar;
+    background: transparent;
+    backdrop-filter:blur(30px);
+    color: rgb(243, 19, 124);
+    text-shadow: 0 0 10px rgb(243, 19, 124);
+}
+#half
+{
+    position: relative;
+    left: 10px;
+    color: rgb(141, 80, 240);
+    text-decoration: underline solid 3px rgb(141, 80, 240);
+    text-shadow: 0 0 10px rgb(141, 80, 240);
+    background: transparent;
+}
+#stop
+{   position: relative;
+    left: 10px;
+    color: aqua;
+    font-size: 50px;
+    text-shadow: 0 0 10px aqua;
+    background: transparent;
+}
